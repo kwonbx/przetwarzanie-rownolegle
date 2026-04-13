@@ -1,0 +1,33 @@
+{
+"Devices":[
+        {
+        "name":"NVIDIA GeForce RTX 3060",
+        "major":"8",
+        "minor":"6",
+        "integrated":"0",
+        "tccDriver":"0",
+        "ECCEnabled":"0",
+        "concurrentKernels":"1",
+        "canMapHostMemory":"1",
+        "multiProcessorCount":"28",
+        "warpSize":"32",
+        "maxThreadsPerBlock":"1024",
+        "maxThreadsDim":[1024,1024,64],
+        "maxGridSize":[2147483647,65535,65535],
+        "maxTexture1D":"131072",
+        "maxTexture2D":[131072,65536],
+        "maxTexture3D":[16384,16384,16384],
+        "pciBusID":"43",
+        "pciDeviceID":"0",
+        "regsPerBlock":"65536",
+        "memPitch":"2147483647",
+        "surfaceAlignment":"512",
+        "textureAlignment":"512",
+        "totalConstMem":"65536",
+        "totalGlobalMem":"12884377600",
+        "sharedMemPerBlock":"49152",
+        "canMapHostMemory":"1",
+        "regsPerBlock":"65536"
+        }
+]
+}
