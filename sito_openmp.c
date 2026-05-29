@@ -137,11 +137,16 @@ int main(int argc, char *argv[]) {
             if(isIntegral) {
                 #pragma omp critical(file_write)
                 {
+<<<<<<< HEAD
                     double current_time = omp_get_wtime();
                     double time_found = current_time - start_time;
             
             printf("%d: %s (czas: %f s)\n", id++, line, time_found);
             fflush(stdout);
+=======
+                    printf("%d: %s\n", global_id++, line);
+                    fflush(stdout);
+>>>>>>> ba1a5e6902816ce46328aad1c943945d149c9aff
                 }
             }
         }
