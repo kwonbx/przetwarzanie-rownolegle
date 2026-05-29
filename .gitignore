@@ -1,3 +1,4 @@
 .vscode/
 *.exe
-grafy.txt
+*.txt
+*.g6
